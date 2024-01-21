@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de Inicio de Fútbol</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-100 font-sans">
 
   <!-- Encabezado -->
-  <header class= "bg-gray-800 text-white p-10">
+  <header class="bg-gray-800 text-white p-10">
     <div class="text-center">
       <h1 class="text-4xl font-semibold font-serif">FOOTBALL INFORMATION MANAGER</h1>
       <p class="text-sm">Welcome to the world of football!</p>
@@ -30,38 +32,53 @@
   <main class="bg-cover object-cover w-full h-screen" style="background-image: url(src/Imatges/Inici/Fons.jpg);">
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-xl font-semibold mb-4">Partido Destacado</h2>
-        <p>El próximo partido será contra nuestro rival histórico. ¡No te lo pierdas!</p>
-        <a href="#" class="text-blue-500 mt-2 inline-block">Leer más...</a>
+      <div class="flex items-center justify-center mt-52">
+        <a href="#"
+          class="bg-white p-6 rounded-full shadow-md hover:bg-gray-200 transition-transform transform hover:scale-105 flex flex-col items-center justify-center">
+          <h2 class="text-xl font-semibold mb-4">Partido Destacado</h2>
+        </a>
       </div>
-
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-xl font-semibold mb-4">Nuevos Uniformes</h2>
-        <p>Presentamos nuestros nuevos uniformes para la temporada. ¡Échales un vistazo!</p>
-        <a href="#" class="text-blue-500 mt-2 inline-block">Leer más...</a>
+    
+      <div class="flex items-center justify-center mt-52">
+        <a href="#"
+          class="bg-white p-6 rounded-full shadow-md hover:bg-gray-200 transition-transform transform hover:scale-105 flex flex-col items-center justify-center">
+          <h2 class="text-xl font-semibold mb-4">Nuevos Uniformes</h2>
+        </a>
       </div>
-
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-xl font-semibold mb-4">Entrenamiento Especial</h2>
-        <p>El equipo realizará un entrenamiento especial para mejorar la condición física.</p>
-        <a href="#" class="text-blue-500 mt-2 inline-block">Leer más...</a>
+    
+      <div class="flex items-center justify-center mt-52">
+        <a href="#"
+          class="bg-white p-6 rounded-full shadow-md hover:bg-gray-200 transition-transform transform hover:scale-105 flex flex-col items-center justify-center">
+          <h2 class="text-xl font-semibold mb-4">Entrenamiento Especial</h2>
+        </a>
       </div>
+    
     </section>
+    
   </main>
 
 
-<footer class="bg-gray-800 text-white p-4">
-  <div class="container mx-auto flex justify-between items-center">
+  <footer class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex flex-col justify-center items-center">
+      <div class=" text-white ">
+        <div class=" font-thin my-4 text-2xl">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
 
-    <div class="text-left">
-      <p>&copy; Made by Vesi Dimitrov. All rights reserved.</p>
-      <p>Dirección: Calle Principal, Ciudad</p>
-      <p>Email: info@futbolclub.com</p>
+      <div class="text-center">
+        <p>&copy; Made by Vesi Dimitrov. All rights reserved.</p>
+        <p>Dirección: Calle Principal, Ciudad</p>
+        <p>Email: info@futbolclub.com</p>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
+
 
 
 </body>
+
 </html>
