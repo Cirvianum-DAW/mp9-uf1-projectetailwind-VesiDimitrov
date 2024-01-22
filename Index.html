@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Inicio de Fútbol</title>
+  <title>Index</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
@@ -15,16 +15,6 @@
     <div class="text-center">
       <h1 class="text-4xl font-semibold font-serif">FOOTBALL INFORMATION MANAGER</h1>
       <p class="text-sm">Welcome to the world of football!</p>
-      <nav>
-        <div class=" text-white ">
-          <div class=" font-thin mt-2 text-2xl">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-          </div>
-        </div>
-      </nav>
     </div>
   </header>
 
@@ -32,42 +22,35 @@
   <main class="bg-cover object-cover w-full h-screen" style="background-image: url(src/Imatges/Inici/Fons.jpg);">
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <div class="flex items-center justify-center mt-52">
+      <div class="flex flex-col items-center justify-center mt-52">
         <a href="#"
-          class="bg-white p-6 rounded-full shadow-md hover:bg-gray-200 transition-transform transform hover:scale-105 flex flex-col items-center justify-center">
-          <h2 class="text-xl font-semibold mb-4">Partido Destacado</h2>
+          class="relative bg-cover bg-center w-32 h-32 p-6 rounded-full shadow-2xl hover:bg-gray-200 transition-transform transform hover:scale-105 flex items-center justify-center"
+          style="background-image: url('src/Imatges/Inici/calendar-31953_640.webp');">
         </a>
+        <h2 class="text-xl font-semibold mb-4 text-white">Calendar</h2>
       </div>
-    
+
       <div class="flex items-center justify-center mt-52">
         <a href="#"
           class="bg-white p-6 rounded-full shadow-md hover:bg-gray-200 transition-transform transform hover:scale-105 flex flex-col items-center justify-center">
           <h2 class="text-xl font-semibold mb-4">Nuevos Uniformes</h2>
         </a>
       </div>
-    
+
       <div class="flex items-center justify-center mt-52">
         <a href="#"
           class="bg-white p-6 rounded-full shadow-md hover:bg-gray-200 transition-transform transform hover:scale-105 flex flex-col items-center justify-center">
           <h2 class="text-xl font-semibold mb-4">Entrenamiento Especial</h2>
         </a>
       </div>
-    
+
     </section>
-    
+
   </main>
 
 
   <footer class="bg-gray-800 text-white p-4">
     <div class="container mx-auto flex flex-col justify-center items-center">
-      <div class=" text-white ">
-        <div class=" font-thin my-4 text-2xl">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
 
       <div class="text-center">
         <p>&copy; Made by Vesi Dimitrov. All rights reserved.</p>
